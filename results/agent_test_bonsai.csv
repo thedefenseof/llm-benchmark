@@ -1,0 +1,148 @@
+model,question,run,calls,text_ok,tool_ok,seconds,answer
+bonsai-2:9b,Which model is the fastest?,0,fastest_model,True,True,63.7,The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**.
+bonsai-2:9b,Which model is the fastest?,1,fastest_model,True,True,28.1,The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**.
+bonsai-2:9b,Which model is the fastest?,2,fastest_model,True,True,28.5,The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**.
+bonsai-2:9b,How much memory does llama3.2:3b use?,0,get_model_stat,False,True,60.3,"The llama3.2:3b model uses approximately **2,448.87 MB** (about 2.45 GB) of memory."
+bonsai-2:9b,How much memory does llama3.2:3b use?,1,get_model_stat,False,True,31.4,"The llama3.2:3b model uses approximately **2,448.87 MB** (about 2.45 GB) of memory."
+bonsai-2:9b,How much memory does llama3.2:3b use?,2,get_model_stat,False,True,31.8,"The llama3.2:3b model uses approximately **2,448.87 MB** (about 2.45 GB) of memory."
+bonsai-2:9b,What is the accuracy of llama3.2:3b?,0,get_model_stat,True,True,60.3,The accuracy of llama3.2:3b is 0.8 (or 80%).
+bonsai-2:9b,What is the accuracy of llama3.2:3b?,1,get_model_stat,True,True,30.5,The accuracy of llama3.2:3b is 0.8 (or 80%).
+bonsai-2:9b,What is the accuracy of llama3.2:3b?,2,get_model_stat,True,True,31.4,The accuracy of llama3.2:3b is 0.8 (or 80%).
+bonsai-2:9b,What is the median TTFT of qwen2.5:1.5b?,0,get_model_stat,True,True,66.7,The median TTFT (Time To First Token) of qwen2.5:1.5b is **0.805 seconds**.
+bonsai-2:9b,What is the median TTFT of qwen2.5:1.5b?,1,get_model_stat,True,True,36.1,The median TTFT (Time To First Token) of qwen2.5:1.5b is **0.805 seconds**.
+bonsai-2:9b,What is the median TTFT of qwen2.5:1.5b?,2,get_model_stat,True,True,36.0,The median TTFT (Time To First Token) of qwen2.5:1.5b is **0.805 seconds**.
+bonsai-2:9b,What is the quantization of llama3.2:1b?,0,get_model_stat,True,True,60.2,The quantization of llama3.2:1b is **Q8_0**.
+bonsai-2:9b,What is the quantization of llama3.2:1b?,1,get_model_stat,True,True,31.6,The quantization of llama3.2:1b is **Q8_0**.
+bonsai-2:9b,What is the quantization of llama3.2:1b?,2,get_model_stat,True,True,30.7,The quantization of llama3.2:1b is **Q8_0**.
+bonsai-2:9b,Which model is the fastest and how much memory does it use?,0,"fastest_model, get_model_stat",True,True,85.3,"The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**, and it uses **963.32 MB** of memory."
+bonsai-2:9b,Which model is the fastest and how much memory does it use?,1,"fastest_model, get_model_stat",True,True,70.7,"The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**, and it uses **963.32 MB** of memory."
+bonsai-2:9b,Which model is the fastest and how much memory does it use?,2,"fastest_model, get_model_stat",True,True,67.9,"The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**, and it uses **963.32 MB** of memory."
+bonsai-2:9b,What is quantization?,0,,,True,112.0,"Quantization is a technique used in machine learning and deep learning to reduce the computational resources required by models while maintaining their performance. Here's what it means:
+
+## What is Quantization?
+
+**Quantization** involves reducing the precision of numerical values used in neural networks. Instead of using high-precision floating-point numbers (like 32-bit floats), quantization converts them to lower precision representations (like 8-bit integers).
+
+## Key Concepts:
+
+1. **Precision Reduction**: 
+   - Original: 32-bit floating-point numbers (high precision)
+   - Quantized: 8-bit or 4-bit integers (lower precision)
+
+2. **Benefits**:
+   - **Faster inference**: Lower precision means less computation
+   - **Reduced memory usage**: Smaller model size
+   - **Lower power consumption**: More efficient hardware utilization
+   - **Cost reduction**: Cheaper to deploy on edge devices
+
+3. **Trade-offs**:
+   - Slight potential loss in accuracy
+   - Requires careful calibration to minimize performance degradation
+
+4. **Common Use Cases**:
+   - Deploying models on mobile devices
+   - Running models on edge hardware (GPUs, NPUs)
+   - Cloud deployment cost optimization
+   - Real-time applications requiring low latency
+
+## Example:
+A model that originally uses 32-bit floats might be quantized to use 8-bit integers, resulting in a 4x reduction in memory usage and potentially 2-4x faster inference speed.
+
+This technique is essential for making large language models more accessible and practical for various applications beyond just high-end servers."
+bonsai-2:9b,What is quantization?,1,,,True,72.9,"Quantization is a technique used in machine learning and deep learning to reduce the computational resources required by models while maintaining their performance. Here's what it means:
+
+## What is Quantization?
+
+**Quantization** involves reducing the precision of numerical values used in neural networks. Instead of using high-precision floating-point numbers (like 32-bit floats), quantization converts them to lower precision representations (like 8-bit integers).
+
+## Key Concepts:
+
+1. **Precision Reduction**: 
+   - Original: 32-bit floating-point numbers (high precision)
+   - Quantized: 8-bit or 4-bit integers (lower precision)
+
+2. **Benefits**:
+   - **Faster inference**: Lower precision means less computation
+   - **Reduced memory usage**: Smaller model size
+   - **Lower power consumption**: More efficient hardware utilization
+   - **Cost reduction**: Cheaper to deploy on edge devices
+
+3. **Trade-offs**:
+   - Slight potential loss in accuracy
+   - Requires careful calibration to minimize performance degradation
+
+4. **Common Use Cases**:
+   - Deploying models on mobile devices
+   - Running models on edge hardware (GPUs, NPUs)
+   - Cloud deployment cost optimization
+   - Real-time applications requiring low latency
+
+## Example:
+A model that originally uses 32-bit floats might be quantized to use 8-bit integers, resulting in a 4x reduction in memory usage and potentially 2-4x faster inference speed.
+
+This technique is essential for making large language models more accessible and practical for various applications beyond just high-end servers."
+bonsai-2:9b,What is quantization?,2,,,True,59.3,"Quantization is a technique used in machine learning and deep learning to reduce the computational resources required by models while maintaining their performance. Here's what it means:
+
+## What is Quantization?
+
+**Quantization** involves reducing the precision of numerical values used in neural networks. Instead of using high-precision floating-point numbers (like 32-bit floats), quantization converts them to lower precision representations (like 8-bit integers).
+
+## Key Concepts:
+
+1. **Precision Reduction**: 
+   - Original: 32-bit floating-point numbers (high precision)
+   - Quantized: 8-bit or 4-bit integers (lower precision)
+
+2. **Benefits**:
+   - **Faster inference**: Lower precision means less computation
+   - **Reduced memory usage**: Smaller model size
+   - **Lower power consumption**: More efficient hardware utilization
+   - **Cost reduction**: Cheaper to deploy on edge devices
+
+3. **Trade-offs**:
+   - Slight potential loss in accuracy
+   - Requires careful calibration to minimize performance degradation
+
+4. **Common Use Cases**:
+   - Deploying models on mobile devices
+   - Running models on edge hardware (GPUs, NPUs)
+   - Cloud deployment cost optimization
+   - Real-time applications requiring low latency
+
+## Example:
+A model that originally uses 32-bit floats might be quantized to use 8-bit integers, resulting in a 4x reduction in memory usage and potentially 2-4x faster inference speed.
+
+This technique is essential for making large language models more accessible and practical for various applications beyond just high-end servers."
+bonsai-2:9b,Hi! How are you?,0,,,True,42.9,"Hi there! I'm doing well, thanks for asking! How about you? Is there anything I can help you with today?"
+bonsai-2:9b,Hi! How are you?,1,,,True,13.6,"Hi there! I'm doing well, thanks for asking! How about you? Is there anything I can help you with today?"
+bonsai-2:9b,Hi! How are you?,2,,,True,13.6,"Hi there! I'm doing well, thanks for asking! How about you? Is there anything I can help you with today?"
+bonsai-2:9b,How much memory does gpt-4 use?,0,"get_model_stat, get_model_stat, get_model_stat, get_model_stat, get_model_stat",,True,149.1,Не уложился в 5 шагов
+bonsai-2:9b,How much memory does gpt-4 use?,1,"get_model_stat, get_model_stat, get_model_stat, get_model_stat, get_model_stat",,True,130.4,Не уложился в 5 шагов
+bonsai-2:9b,How much memory does gpt-4 use?,2,"get_model_stat, get_model_stat, get_model_stat, get_model_stat, get_model_stat",,True,118.5,Не уложился в 5 шагов
+bonsai-2:9b,What is the price of llama3.2:3b?,0,,,False,78.5,"I don't have access to pricing information for the llama3.2:3b model through the available tools. The functions I have access to are focused on performance metrics like speed, memory usage, and accuracy, rather than pricing or cost information.
+
+To get pricing information for llama3.2:3b, you would need to check:
+- The official Meta AI website or documentation
+- Model provider websites (like Hugging Face, Replicate, etc.)
+- Cloud service providers that offer the model (AWS, GCP, Azure)
+- Model marketplace platforms
+
+Pricing for open-source models like llama3.2:3b can vary depending on whether you're using it locally, through API services, or via cloud platforms, and may include costs for inference, training, or deployment."
+bonsai-2:9b,What is the price of llama3.2:3b?,1,,,False,46.7,"I don't have access to pricing information for the llama3.2:3b model through the available tools. The functions I have access to are focused on performance metrics like speed, memory usage, and accuracy, rather than pricing or cost information.
+
+To get pricing information for llama3.2:3b, you would need to check:
+- The official Meta AI website or documentation
+- Model provider websites (like Hugging Face, Replicate, etc.)
+- Cloud service providers that offer the model (AWS, GCP, Azure)
+- Model marketplace platforms
+
+Pricing for open-source models like llama3.2:3b can vary depending on whether you're using it locally, through API services, or via cloud platforms, and may include costs for inference, training, or deployment."
+bonsai-2:9b,What is the price of llama3.2:3b?,2,,,False,45.8,"I don't have access to pricing information for the llama3.2:3b model through the available tools. The functions I have access to are focused on performance metrics like speed, memory usage, and accuracy, rather than pricing or cost information.
+
+To get pricing information for llama3.2:3b, you would need to check:
+- The official Meta AI website or documentation
+- Model provider websites (like Hugging Face, Replicate, etc.)
+- Cloud service providers that offer the model (AWS, GCP, Azure)
+- Model marketplace platforms
+
+Pricing for open-source models like llama3.2:3b can vary depending on whether you're using it locally, through API services, or via cloud platforms, and may include costs for inference, training, or deployment."

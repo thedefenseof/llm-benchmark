@@ -1,0 +1,113 @@
+id;type;lang;prompt;expected
+1;fact_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: У пауков 8 ног.
+Ответ:";ДА
+2;fact_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Spiders have 8 legs.
+Answer:";YES
+3;fact_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Ананас — это фрукт.
+Ответ:";ДА
+4;fact_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Pineapple is a fruit.
+Answer:";YES
+5;fact_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Python — язык программирования.
+Ответ:";ДА
+6;fact_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Python is a programming language.
+Answer:";YES
+7;fact_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Небо красного цвета.
+Ответ:";НЕТ
+8;fact_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: The sky is red.
+Answer:";NO
+9;fact_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Россия — самая маленькая страна в мире.
+Ответ:";НЕТ
+10;fact_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Russia is the smallest country in the world.
+Answer:";NO
+11;fact_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Бегемот меньше, чем такса.
+Ответ:";НЕТ
+12;fact_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: A hippopotamus is smaller than a dachshund.
+Answer:";NO
+13;math_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Два плюс четыре равно шесть.
+Ответ:";ДА
+14;math_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Two plus four equals six.
+Answer:";YES
+15;math_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Двадцать пять умножить на три равно семьдесят пять.
+Ответ:";ДА
+16;math_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Twenty-five multiplied by three equals seventy-five.
+Answer:";YES
+17;math_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Сто двадцать разделить на три равно сорок.
+Ответ:";ДА
+18;math_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: One hundred and twenty divided by three equals forty.
+Answer:";YES
+19;math_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Семь плюс одиннадцать равно десять.
+Ответ:";НЕТ
+20;math_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Seven plus eleven equals ten.
+Answer:";NO
+21;math_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Тридцать умножить на три равно пятьдесят.
+Ответ:";НЕТ
+22;math_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: Thirty multiplied by three equals fifty.
+Answer:";NO
+23;math_tf;rus;"Напиши, верно ли это утверждение. Ответь только одним словом: ДА или НЕТ.
+Утверждение: Сто разделить на пять равно десять.
+Ответ:";НЕТ
+24;math_tf;eng;"Write whether this statement is true. Answer with only one word: YES or NO.
+Statement: One hundred divided by five equals ten.
+Answer:";NO
+25;geo;rus;"Напиши ответ на вопрос. Ответь только одним словом в именительном падеже капсом (например, ВАРШАВА).
+Вопрос: Какой город самый большой в Европе?
+Ответ:";МОСКВА
+26;geo;eng;"Write the answer to the question. Answer with only one word in the nominative case, in all caps (for example, WARSAW).
+Question: What is the largest city in Europe?
+Answer:";MOSCOW
+27;geo;rus;"Напиши ответ на вопрос. Ответь только одним словом в именительном падеже капсом (например, ВАРШАВА).
+Вопрос: В каком городе появилось первое в мире метро?
+Ответ:";ЛОНДОН
+28;geo;eng;"Write the answer to the question. Answer with only one word in the nominative case, in all caps (for example, WARSAW).
+Question: In which city did the world’s first metro system appear?
+Answer:";LONDON
+29;geo;rus;"Напиши ответ на вопрос. Ответь только одним словом в именительном падеже капсом (например, ВАРШАВА).
+Вопрос: В каком городе находится Тадж-Махал?
+Ответ:";АГРА
+30;geo;eng;"Write the answer to the question. Answer with only one word in the nominative case, in all caps (for example, WARSAW).
+Question: In which city is the Taj Mahal located?
+Answer:";AGRA
+31;geo;rus;"Напиши ответ на вопрос. Ответь только одним словом в именительном падеже капсом (например, ВАРШАВА).
+Вопрос: Какой город является столицей Португалии?
+Ответ:";ЛИССАБОН
+32;geo;eng;"Write the answer to the question. Answer with only one word in the nominative case, in all caps (for example, WARSAW).
+Question: Which city is the capital of Portugal?
+Answer:";LISBON
+33;geo;rus;"Напиши ответ на вопрос. Ответь только одним словом в именительном падеже капсом (например, ВАРШАВА).
+Вопрос: Какой стране принадлежат Канарские острова?
+Ответ:";ИСПАНИЯ
+34;geo;eng;"Write the answer to the question. Answer with only one word in the nominative case, in all caps (for example, WARSAW).
+Question: Which country do the Canary Islands belong to?
+Answer:";SPAIN
+35;geo;rus;"Напиши ответ на вопрос. Ответь только одним словом в именительном падеже капсом (например, ВАРШАВА).
+Вопрос: Какой город является столицей Японии?
+Ответ:";ТОКИО
+36;geo;eng;"Write the answer to the question. Answer with only one word in the nominative case, in all caps (for example, WARSAW).
+Question: Which city is the capital of Japan?
+Answer:";TOKYO
+37;long;rus;Расскажи о Москве.;
+38;long;eng;Tell me about Moscow.;
+39;long;rus;Объясни, зачем людям нужен сон.;
+40;long;eng;Explain why people need sleep.;

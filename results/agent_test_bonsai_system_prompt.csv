@@ -1,0 +1,76 @@
+model,question,run,calls,text_ok,tool_ok,seconds,answer
+bonsai-2:9b,Which model is the fastest?,0,fastest_model,True,True,58.8,The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**.
+bonsai-2:9b,Which model is the fastest?,1,fastest_model,True,True,24.2,The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**.
+bonsai-2:9b,Which model is the fastest?,2,fastest_model,True,True,24.0,The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of **36.2 tokens per second**.
+bonsai-2:9b,How much memory does llama3.2:3b use?,0,get_model_stat,False,True,72.3,"llama3.2:3b uses approximately 2,448.87 MB (about 2.45 GB) of memory."
+bonsai-2:9b,How much memory does llama3.2:3b use?,1,get_model_stat,False,True,36.4,"llama3.2:3b uses approximately 2,448.87 MB (about 2.45 GB) of memory."
+bonsai-2:9b,How much memory does llama3.2:3b use?,2,get_model_stat,False,True,37.7,"llama3.2:3b uses approximately 2,448.87 MB (about 2.45 GB) of memory."
+bonsai-2:9b,What is the accuracy of llama3.2:3b?,0,get_model_stat,True,True,71.2,The accuracy of llama3.2:3b is 0.8.
+bonsai-2:9b,What is the accuracy of llama3.2:3b?,1,get_model_stat,True,True,28.0,The accuracy of llama3.2:3b is 0.8.
+bonsai-2:9b,What is the accuracy of llama3.2:3b?,2,get_model_stat,True,True,27.4,The accuracy of llama3.2:3b is 0.8.
+bonsai-2:9b,What is the median TTFT of qwen2.5:1.5b?,0,get_model_stat,True,True,69.7,The median TTFT (Time to First Token) of qwen2.5:1.5b is 0.805 seconds.
+bonsai-2:9b,What is the median TTFT of qwen2.5:1.5b?,1,get_model_stat,True,True,33.3,The median TTFT (Time to First Token) of qwen2.5:1.5b is 0.805 seconds.
+bonsai-2:9b,What is the median TTFT of qwen2.5:1.5b?,2,get_model_stat,True,True,33.1,The median TTFT (Time to First Token) of qwen2.5:1.5b is 0.805 seconds.
+bonsai-2:9b,What is the quantization of llama3.2:1b?,0,get_model_stat,True,True,66.7,The quantization of llama3.2:1b is Q8_0.
+bonsai-2:9b,What is the quantization of llama3.2:1b?,1,get_model_stat,True,True,32.7,The quantization of llama3.2:1b is Q8_0.
+bonsai-2:9b,What is the quantization of llama3.2:1b?,2,get_model_stat,True,True,32.2,The quantization of llama3.2:1b is Q8_0.
+bonsai-2:9b,Which model is the fastest and how much memory does it use?,0,"fastest_model, get_model_stat",True,True,84.8,"The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of 36.2 tokens per second, and it uses **963.32 MB** of memory."
+bonsai-2:9b,Which model is the fastest and how much memory does it use?,1,"fastest_model, get_model_stat",True,True,49.0,"The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of 36.2 tokens per second, and it uses **963.32 MB** of memory."
+bonsai-2:9b,Which model is the fastest and how much memory does it use?,2,"fastest_model, get_model_stat",True,True,48.9,"The fastest model is **llama3.2:1b-instruct-q4_K_M** with a speed of 36.2 tokens per second, and it uses **963.32 MB** of memory."
+bonsai-2:9b,What is quantization?,0,,,True,84.5,"Quantization is a technique used in machine learning and deep learning to reduce the size and computational cost of models by decreasing the precision of their weights and activations. Instead of using high-precision floating-point numbers (like 32-bit floats), quantization converts these values to lower precision representations, such as 8-bit integers or even 4-bit integers.
+
+The main benefits of quantization include:
+- **Reduced model size**: Smaller models take up less storage space
+- **Faster inference**: Lower precision operations are computationally cheaper and faster
+- **Lower memory usage**: Requires less RAM during training and deployment
+- **Improved hardware efficiency**: Many hardware accelerators (like NPUs, TPUs) are optimized for integer operations
+
+Quantization can be applied at different stages:
+- **Post-training quantization**: Quantizing a trained model without retraining
+- **Quantization-aware training**: Training with quantization in mind to maintain accuracy
+- **Dynamic quantization**: Adjusting precision during inference based on input data
+
+While quantization can sometimes lead to slight accuracy loss, modern techniques have made it possible to achieve near-original performance while significantly improving efficiency."
+bonsai-2:9b,What is quantization?,1,,,True,51.9,"Quantization is a technique used in machine learning and deep learning to reduce the size and computational cost of models by decreasing the precision of their weights and activations. Instead of using high-precision floating-point numbers (like 32-bit floats), quantization converts these values to lower precision representations, such as 8-bit integers or even 4-bit integers.
+
+The main benefits of quantization include:
+- **Reduced model size**: Smaller models take up less storage space
+- **Faster inference**: Lower precision operations are computationally cheaper and faster
+- **Lower memory usage**: Requires less RAM during training and deployment
+- **Improved hardware efficiency**: Many hardware accelerators (like NPUs, TPUs) are optimized for integer operations
+
+Quantization can be applied at different stages:
+- **Post-training quantization**: Quantizing a trained model without retraining
+- **Quantization-aware training**: Training with quantization in mind to maintain accuracy
+- **Dynamic quantization**: Adjusting precision during inference based on input data
+
+While quantization can sometimes lead to slight accuracy loss, modern techniques have made it possible to achieve near-original performance while significantly improving efficiency."
+bonsai-2:9b,What is quantization?,2,,,True,51.2,"Quantization is a technique used in machine learning and deep learning to reduce the size and computational cost of models by decreasing the precision of their weights and activations. Instead of using high-precision floating-point numbers (like 32-bit floats), quantization converts these values to lower precision representations, such as 8-bit integers or even 4-bit integers.
+
+The main benefits of quantization include:
+- **Reduced model size**: Smaller models take up less storage space
+- **Faster inference**: Lower precision operations are computationally cheaper and faster
+- **Lower memory usage**: Requires less RAM during training and deployment
+- **Improved hardware efficiency**: Many hardware accelerators (like NPUs, TPUs) are optimized for integer operations
+
+Quantization can be applied at different stages:
+- **Post-training quantization**: Quantizing a trained model without retraining
+- **Quantization-aware training**: Training with quantization in mind to maintain accuracy
+- **Dynamic quantization**: Adjusting precision during inference based on input data
+
+While quantization can sometimes lead to slight accuracy loss, modern techniques have made it possible to achieve near-original performance while significantly improving efficiency."
+bonsai-2:9b,Hi! How are you?,0,,,True,46.3,"Hi! I'm doing well, thanks for asking! How about you?"
+bonsai-2:9b,Hi! How are you?,1,,,True,11.8,"Hi! I'm doing well, thanks for asking! How about you?"
+bonsai-2:9b,Hi! How are you?,2,,,True,11.4,"Hi! I'm doing well, thanks for asking! How about you?"
+bonsai-2:9b,How much memory does gpt-4 use?,0,get_model_stat,,True,70.2,I wasn't able to find information about gpt-4's memory usage in the available model benchmarks. The system returned an error indicating that the model was not found in the database.
+bonsai-2:9b,How much memory does gpt-4 use?,1,get_model_stat,,True,36.4,I wasn't able to find information about gpt-4's memory usage in the available model benchmarks. The system returned an error indicating that the model was not found in the database.
+bonsai-2:9b,How much memory does gpt-4 use?,2,get_model_stat,,True,35.3,I wasn't able to find information about gpt-4's memory usage in the available model benchmarks. The system returned an error indicating that the model was not found in the database.
+bonsai-2:9b,What is the price of llama3.2:3b?,0,,,False,70.9,"I don't have access to pricing information for llama3.2:3b or other models through my available tools. The functions I can use are for benchmark metrics like tokens per second, memory usage, accuracy, etc., not for pricing data.
+
+For pricing information on llama3.2:3b, you would need to check the official Meta AI website or contact their sales team directly, as model pricing can vary based on factors like licensing terms, volume, and specific use cases."
+bonsai-2:9b,What is the price of llama3.2:3b?,1,,,False,35.4,"I don't have access to pricing information for llama3.2:3b or other models through my available tools. The functions I can use are for benchmark metrics like tokens per second, memory usage, accuracy, etc., not for pricing data.
+
+For pricing information on llama3.2:3b, you would need to check the official Meta AI website or contact their sales team directly, as model pricing can vary based on factors like licensing terms, volume, and specific use cases."
+bonsai-2:9b,What is the price of llama3.2:3b?,2,,,False,35.4,"I don't have access to pricing information for llama3.2:3b or other models through my available tools. The functions I can use are for benchmark metrics like tokens per second, memory usage, accuracy, etc., not for pricing data.
+
+For pricing information on llama3.2:3b, you would need to check the official Meta AI website or contact their sales team directly, as model pricing can vary based on factors like licensing terms, volume, and specific use cases."

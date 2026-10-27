@@ -1,0 +1,79 @@
+model,question,run,calls,text_ok,tool_ok,seconds,answer
+llama3.2:3b,Which model is the fastest?,0,fastest_model,True,True,16.5,"The fastest model is llama3.2:1b-instruct-q4_K_M, which achieved a speed of 36.2 tokens per second."
+llama3.2:3b,Which model is the fastest?,1,fastest_model,True,True,11.1,"The fastest model is llama3.2:1b-instruct-q4_K_M, which achieved a speed of 36.2 tokens per second."
+llama3.2:3b,Which model is the fastest?,2,fastest_model,True,True,11.1,"The fastest model is llama3.2:1b-instruct-q4_K_M, which achieved a speed of 36.2 tokens per second."
+llama3.2:3b,How much memory does llama3.2:3b use?,0,get_model_stat,True,True,10.7,The LLaMA 3.2:3b model uses approximately 2448.87 MB of memory.
+llama3.2:3b,How much memory does llama3.2:3b use?,1,get_model_stat,True,True,11.1,The LLaMA 3.2:3b model uses approximately 2448.87 MB of memory.
+llama3.2:3b,How much memory does llama3.2:3b use?,2,get_model_stat,True,True,10.3,The LLaMA 3.2:3b model uses approximately 2448.87 MB of memory.
+llama3.2:3b,What is the accuracy of llama3.2:3b?,0,get_model_stat,True,True,11.2,The accuracy of the llama3.2:3b model is 0.8.
+llama3.2:3b,What is the accuracy of llama3.2:3b?,1,get_model_stat,True,True,11.3,The accuracy of the llama3.2:3b model is 0.8.
+llama3.2:3b,What is the accuracy of llama3.2:3b?,2,get_model_stat,True,True,10.1,The accuracy of the llama3.2:3b model is 0.8.
+llama3.2:3b,What is the median TTFT of qwen2.5:1.5b?,0,get_model_stat,True,True,12.7,The median TTFT (Throughput-Throughput Fairness Time) of the qwen2.5:1.5b model is 0.805.
+llama3.2:3b,What is the median TTFT of qwen2.5:1.5b?,1,get_model_stat,True,True,11.5,The median TTFT (Throughput-Throughput Fairness Time) of the qwen2.5:1.5b model is 0.805.
+llama3.2:3b,What is the median TTFT of qwen2.5:1.5b?,2,get_model_stat,True,True,12.5,The median TTFT (Throughput-Throughput Fairness Time) of the qwen2.5:1.5b model is 0.805.
+llama3.2:3b,What is the quantization of llama3.2:1b?,0,get_model_stat,True,True,11.5,The quantization of the LLaMA 3.2:1b model is Q8_0.
+llama3.2:3b,What is the quantization of llama3.2:1b?,1,get_model_stat,True,True,11.4,The quantization of the LLaMA 3.2:1b model is Q8_0.
+llama3.2:3b,What is the quantization of llama3.2:1b?,2,get_model_stat,True,True,11.5,The quantization of the LLaMA 3.2:1b model is Q8_0.
+llama3.2:3b,Which model is the fastest and how much memory does it use?,0,"fastest_model, get_model_stat",False,True,12.5,Error: No data available for the fastest model.
+llama3.2:3b,Which model is the fastest and how much memory does it use?,1,"fastest_model, get_model_stat",False,True,12.4,Error: No data available for the fastest model.
+llama3.2:3b,Which model is the fastest and how much memory does it use?,2,"fastest_model, get_model_stat",False,True,12.3,Error: No data available for the fastest model.
+llama3.2:3b,What is quantization?,0,get_model_stat,,False,29.4,"I apologize for the earlier response. It seems that I couldn't find any information on a model related to quantization.
+
+Quantization is a process in deep learning where the precision of model weights and activations is reduced from floating-point numbers (such as floats) to integers (such as integers). This is done to reduce the computational requirements and memory usage of the model, which can lead to faster inference times and lower power consumption.
+
+In general, quantization involves the following steps:
+
+1. Weight and activation quantization: The model weights and activations are converted from floating-point numbers to integers.
+2. Quantization scheme: A quantization scheme is chosen, such as uniform quantization or entropy coding, to determine the number of bits required to represent each weight and activation.
+3. Quantized model: The model is retrained or fine-tuned with the quantized weights and activations.
+
+Quantization can be applied to different parts of the model, such as weights, activations, or both. The choice of quantization scheme and the level of quantization (i.e., the number of bits used to represent each weight and activation) can significantly impact the performance and accuracy of the model.
+
+I hope this helps! Let me know if you have any further questions."
+llama3.2:3b,What is quantization?,1,get_model_stat,,False,27.3,"I apologize for the earlier response. It seems that I couldn't find any information on a model related to quantization.
+
+Quantization is a process in deep learning where the precision of model weights and activations is reduced from floating-point numbers (such as float32) to integers (such as int8). This is done to reduce the memory usage and computational requirements of the model, which can lead to faster inference times and lower power consumption.
+
+In general, quantization involves the following steps:
+
+1. Weight and activation quantization: The model weights and activations are converted from floating-point numbers to integers.
+2. Quantization scheme: A quantization scheme is chosen, such as uniform quantization or entropy coding, to map the quantized values to a specific range.
+3. Model retraining: The model is retrained with the quantized weights and activations to adapt to the reduced precision.
+
+Quantization can be applied to different parts of the model, such as weights, activations, or both. The choice of quantization scheme and the level of quantization depend on the specific use case and the trade-off between accuracy and efficiency.
+
+In summary, quantization is a technique used to reduce the precision of model weights and activations, which can lead to faster inference times and lower power consumption, but may also affect the model's accuracy."
+llama3.2:3b,What is quantization?,2,get_model_stat,,False,39.4,"Quantization is the process of reducing the precision of model weights and activations from floating-point numbers (usually 32-bit or 64-bit) to integers (usually 8-bit or 16-bit). This is done to reduce the memory requirements of the model, which can lead to faster inference times and lower power consumption.
+
+In the context of deep learning, quantization typically involves the following steps:
+
+1. Weight quantization: The model weights are converted from floating-point numbers to integers, usually using a technique called uniform quantization.
+2. Activation quantization: The model activations are also converted from floating-point numbers to integers, usually using a technique called uniform quantization.
+3. Weight and activation scaling: The quantized weights and activations are scaled to ensure that the model can still produce accurate results.
+
+Quantization can be done at different levels, including:
+
+* Model quantization: The entire model is quantized, which can lead to significant reductions in memory and inference time.
+* Layer quantization: Only specific layers of the model are quantized, which can be a more conservative approach.
+* Weight quantization: Only the model weights are quantized, which can be a more targeted approach.
+
+Quantization has several benefits, including:
+
+* Reduced memory requirements: Quantization can reduce the memory requirements of the model, which can lead to faster inference times and lower power consumption.
+* Improved inference speed: Quantization can improve the inference speed of the model, which can be important for applications that require fast processing.
+* Reduced precision: Quantization can reduce the precision of the model, which can lead to some loss of accuracy.
+
+However, quantization also has some limitations and challenges, including:
+
+* Reduced accuracy: Quantization can lead to a reduction in accuracy, especially for models that require high precision.
+* Increased complexity: Quantization can add complexity to the model, which can make it harder to train and deploy.
+* Limited support: Quantization may not be supported by all frameworks and tools, which can make it harder to deploy and use."
+llama3.2:3b,Hi! How are you?,0,,,True,3.4,"{""name"": ""greeting"", ""parameters"": {}}"
+llama3.2:3b,Hi! How are you?,1,,,True,3.2,"{""name"": ""greeting"", ""parameters"": {}}"
+llama3.2:3b,Hi! How are you?,2,,,True,3.1,"{""name"": ""greeting"", ""parameters"": {}}"
+llama3.2:3b,How much memory does gpt-4 use?,0,get_model_stat,,True,11.5,"I apologize for the mistake. It seems that I couldn't retrieve the memory usage of the gpt-4 model. The function ""get_model_stat"" returned an error, indicating that the model was not found. I'll make sure to double-check the model name and try again if needed."
+llama3.2:3b,How much memory does gpt-4 use?,1,get_model_stat,,True,14.3,"I apologize for the mistake. It seems that I couldn't retrieve the memory usage of the gpt-4 model. The function ""get_model_stat"" returned an error, indicating that the model was not found. I'll make sure to double-check the model name and try again if needed."
+llama3.2:3b,How much memory does gpt-4 use?,2,get_model_stat,,True,13.7,"I apologize for the mistake. It seems that I couldn't retrieve the memory usage of the gpt-4 model. The function ""get_model_stat"" returned an error, indicating that the model was not found. I'll make sure to double-check the model name and try again if needed."
+llama3.2:3b,What is the price of llama3.2:3b?,0,get_model_stat,,True,12.2,The price of the llama3.2:3b model is approximately 2448.87 MB of memory.
+llama3.2:3b,What is the price of llama3.2:3b?,1,get_model_stat,,True,12.0,The price of the llama3.2:3b model is approximately 2448.87 MB of memory.
+llama3.2:3b,What is the price of llama3.2:3b?,2,get_model_stat,,True,12.1,The price of the llama3.2:3b model is approximately 2448.87 MB of memory.

@@ -1,0 +1,7 @@
+services:
+  benchmark:
+    build: .
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+    volumes:
+      - ./results:/app/results
